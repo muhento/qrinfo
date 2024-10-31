@@ -84,6 +84,12 @@ body {
     padding: 15px;
 }
 
+/* Right align emergency contact */
+.emergency-contact {
+    display: flex;
+    justify-content: flex-end; /* Aligns content to the right */
+}
+
 .info-item {
     display: flex;
     justify-content: space-between;
@@ -122,3 +128,4 @@ body {
 .fab:hover {
     background-color: #c53030;
 }
+
